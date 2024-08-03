@@ -1,8 +1,12 @@
 import React from "react";
-import ReatDOM from "react-dom";
+import css from './css/Sidebar.module.css';
 
 function Sidebar () {
-    return <h1>I am a sidebar!</h1>
+    return  <div className={css.sidebar}>
+    <a>My Photos</a>
+    <a>My Illustrations</a>
+    <a>My Paintings</a>
+  </div>
 }
 
 export default Sidebar;

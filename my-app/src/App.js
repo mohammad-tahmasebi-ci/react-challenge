@@ -5,13 +5,8 @@ import Sidebar from './components/Sidebar';
 
 function App() {
   return (
-    <div className="App">
+    <div className={css.App}>
       <Sidebar />
-      <div>
-        <a>My Photos</a>
-        <a>My Illustrations</a>
-        <a>My Paintings</a>
-      </div>
     </div>
   );
 }
