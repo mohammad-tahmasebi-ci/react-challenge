@@ -9,7 +9,7 @@ export class Content extends Component {
     constructor(props) {
       super(props)
       this.state = {
-        isLoaded: true
+        isLoaded: false
       }
     }
 
